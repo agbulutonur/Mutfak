@@ -43,6 +43,7 @@
   ],
   "log": [
     {
+      "id": 1,
       "action": "created",
       "machine_id": 1,
       "type": "tea",
@@ -52,6 +53,7 @@
       "action_time": "2021-01-13T06:48:25.726243Z"
     },
     {
+      "id": 2,
       "action": "updated",
       "machine_id": 1,
       "type": "tea",
@@ -61,6 +63,7 @@
       "action_time": "2021-01-13T06:49:25.726243Z"
     },
     {
+      "id": 3,
       "action": "created",
       "machine_id": 2,
       "type": "tea",
@@ -70,6 +73,7 @@
       "action_time": "2021-01-13T06:45:25.726243Z"
     },
     {
+      "id": 4,
       "action": "updated",
       "machine_id": 2,
       "type": "tea",
