@@ -4,3 +4,9 @@
 [submodule "Mutfak-MobileClient"]
 	path = Mutfak-MobileClient
 	url = git@github.com:agbulutonur/Mutfak-MobileClient.git
+[submodule "Mutfak-MobileAdmin"]
+	path = Mutfak-MobileAdmin
+	url = git@github.com:agbulutonur/Mutfak-MobileAdmin.git
+[submodule "Mutfak-WebClient"]
+	path = Mutfak-WebClient
+	url = git@github.com:agbulutonur/Mutfak-WebClient.git
