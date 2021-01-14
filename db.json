@@ -1,11 +1,82 @@
 {
-  "posts": [
+  "machines": [
     {
       "id": 1,
-      "title": "hello"
+      "type": "tea",
+      "name": "Çay 1.Mak",
+      "status": "preparing",
+      "start_time": "2021-01-13T06:48:25.726243Z",
+      "end_time": "2021-01-13T06:53:25.726243Z"
+    },
+    {
+      "id": 2,
+      "type": "tea",
+      "name": "Çay 2.Mak",
+      "status": "ready",
+      "start_time": "2021-01-13T06:45:25.726243Z",
+      "end_time": "2021-01-13T06:45:25.726243Z"
+    },
+    {
+      "id": 3,
+      "type": "tea",
+      "name": "Çay 3.Mak",
+      "status": "ready",
+      "start_time": "2021-01-13T06:40:25.726243Z",
+      "end_time": "2021-01-13T06:40:25.726243Z"
+    },
+    {
+      "id": 4,
+      "type": "coffee",
+      "name": "Filtre Kahve",
+      "status": "ran_out",
+      "start_time": "2021-01-13T06:00:25.726243Z",
+      "end_time": "2021-01-13T06:00:25.726243Z"
+    },
+    {
+      "id": 5,
+      "type": "coffee",
+      "name": "Türk Kahvesi",
+      "status": "out_of_order",
+      "start_time": "",
+      "end_time": ""
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "log": [
+    {
+      "action": "created",
+      "machine_id": 1,
+      "type": "tea",
+      "status": "preparing",
+      "start_time": "2021-01-13T06:48:25.726243Z",
+      "end_time": "2021-01-13T06:50:25.726243Z",
+      "action_time": "2021-01-13T06:48:25.726243Z"
+    },
+    {
+      "action": "updated",
+      "machine_id": 1,
+      "type": "tea",
+      "status": "preparing",
+      "start_time": "2021-01-13T06:48:25.726243Z",
+      "end_time": "2021-01-13T06:53:25.726243Z",
+      "action_time": "2021-01-13T06:49:25.726243Z"
+    },
+    {
+      "action": "created",
+      "machine_id": 2,
+      "type": "tea",
+      "status": "preparing",
+      "start_time": "2021-01-13T06:45:25.726243Z",
+      "end_time": "2021-01-13T06:50:25.726243Z",
+      "action_time": "2021-01-13T06:45:25.726243Z"
+    },
+    {
+      "action": "updated",
+      "machine_id": 2,
+      "type": "tea",
+      "status": "preparing",
+      "start_time": "2021-01-13T06:45:25.726243Z",
+      "end_time": "2021-01-13T06:48:25.726243Z",
+      "action_time": "2021-01-13T06:46:25.726243Z"
+    }
+  ]
 }
