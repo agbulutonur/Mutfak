@@ -82,5 +82,17 @@
       "end_time": "2021-01-13T06:48:25.726243Z",
       "action_time": "2021-01-13T06:46:25.726243Z"
     }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "status": "preparing",
+      "duration": 300000
+    },
+    {
+      "id": 2,
+      "status": "ready",
+      "duration": 300000
+    }
   ]
 }
