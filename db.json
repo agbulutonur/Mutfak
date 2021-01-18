@@ -1,44 +1,39 @@
 {
-  "machines": [
+  "stations": [
     {
       "id": 1,
       "type": "tea",
       "name": "Çay 1.Mak",
       "status": "preparing",
-      "start_time": "2021-01-13T06:48:25.726243Z",
-      "end_time": "2021-01-13T06:53:25.726243Z"
+      "duration": 300000
     },
     {
       "id": 2,
       "type": "tea",
       "name": "Çay 2.Mak",
-      "status": "ready",
-      "start_time": "2021-01-13T06:45:25.726243Z",
-      "end_time": "2021-01-13T06:45:25.726243Z"
+      "status": "preparing",
+      "duration": 360000
     },
     {
       "id": 3,
       "type": "tea",
       "name": "Çay 3.Mak",
       "status": "ready",
-      "start_time": "2021-01-13T06:40:25.726243Z",
-      "end_time": "2021-01-13T06:40:25.726243Z"
+      "duration": 0
     },
     {
       "id": 4,
       "type": "coffee",
       "name": "Filtre Kahve",
       "status": "ran_out",
-      "start_time": "2021-01-13T06:00:25.726243Z",
-      "end_time": "2021-01-13T06:00:25.726243Z"
+      "duration": -1
     },
     {
       "id": 5,
       "type": "coffee",
       "name": "Türk Kahvesi",
       "status": "out_of_order",
-      "start_time": "",
-      "end_time": ""
+      "duration": -1
     }
   ],
   "log": [
@@ -79,7 +74,7 @@
       "type": "tea",
       "status": "preparing",
       "start_time": "2021-01-13T06:45:25.726243Z",
-      "end_time": "2021-01-13T06:48:25.726243Z",
+      "end_time": "2021-01-13T06:51:25.726243Z",
       "action_time": "2021-01-13T06:46:25.726243Z"
     }
   ],
@@ -87,12 +82,27 @@
     {
       "id": 1,
       "status": "preparing",
-      "duration": 300000
+      "duration": 240000
     },
     {
       "id": 2,
-      "status": "ready",
+      "status": "preparing",
       "duration": 300000
+    },
+    {
+      "id": 3,
+      "status": "ready",
+      "duration": 0
+    },
+    {
+      "id": 4,
+      "status": "ran_out",
+      "duration": -1
+    },
+    {
+      "id": 5,
+      "status": "out_of_order",
+      "duration": -1
     }
   ]
 }
